@@ -23,40 +23,6 @@
 	<!-- Include the whole PSR-2 standard -->
 	<rule ref="PSR2"/>
 	<!--
-	Files MUST have a doc block comment.
-	Checks file comment tag format and order.
-	-->
-	<rule ref="GreynoiseLaravel.Commenting.FileComment">
-		<properties>
-			<property name="error" value="true"/>
-		</properties>
-	</rule>
-	<!--
-	Classes MUST have a doc block comment.
-	-->
-	<rule ref="Squiz.Commenting.ClassComment"/>
-	<!--
-	Checks class comment tag format and order.
-	-->
-	<rule ref="GreynoiseLaravel.Commenting.ClassComment"/>
-	<!--
-	Allow class tags.
-	-->
-	<rule ref="Squiz.Commenting.ClassComment.TagNotAllowed">
-		<severity>0</severity>
-	</rule>
-	<!--
-	Properties MUST have a doc block comment.
-	-->
-	<rule ref="Squiz.Commenting.VariableComment"/>
-	<!--
-	Methods and functions MUST have a doc block comment.
-	-->
-	<rule ref="Squiz.Commenting.FunctionComment"/>
-	<rule ref="Squiz.Commenting.FunctionComment.ParamCommentFullStop">
-		<severity>0</severity>
-	</rule>
-	<!--
 	Doc block comment alignment.
 	-->
 	<rule ref="Squiz.Commenting.DocCommentAlignment"/>

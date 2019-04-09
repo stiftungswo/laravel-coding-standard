@@ -40,10 +40,6 @@
 		<message>Comments should not appear after statements</message>
 	</rule>
 	<!--
-	Doc block comment format and spacing.
-	-->
-	<rule ref="Generic.Commenting.DocComment"/>
-	<!--
 	Warning for todo items.
 	-->
 	<rule ref="Generic.Commenting.Todo"/>
